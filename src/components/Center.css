@@ -1,3 +1,10 @@
+
+/* virtual */
+.virtual__create{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* total credits section */
 .total__field {
   background: aquamarine;
@@ -34,7 +41,7 @@
 /* Virtual accounts section */
 .user__transactions {
   margin: 5px 10px;
-  background: red;
+  background: antiquewhite;
   border-radius: 5px;
   height: 68.8vh;
 }
@@ -46,15 +53,41 @@
   align-items: center;
   gap: 10px;
 }
-.button__search {
+/* .button__search {
   flex-direction: row;
-}
+
+} */
 .button__search input {
-  width: 420px;
-  border: 1px solid red;
+  width: 474px;
+  border: 0.5px solid #e1e1e1;
   border-radius: 5px;
   font-size: 1rem;
-  color: #65717c;
   padding: 0.75rem 1rem;
   background: #fff;
+  color: #65717c;
+}
+
+/* Bank inflow */
+
+.details {
+  padding: 0 20px;
+}
+.bank__titles {
+  display: flex;
+  align-items: flex-start;
+  gap: 180px;
+  padding: 0 20px;
+  padding-top: -200px;
+  
+}
+
+/* bank details */
+.bank__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  /* justify-content: space-between; */
 }
