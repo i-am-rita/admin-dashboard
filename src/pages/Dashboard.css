@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background: #f5f6fa;
 }
 
 .main__content .user__details {

@@ -1,8 +1,60 @@
-.total__field{
-    background: red;
-    display: flex;
-    gap: 90px;
-    padding: 20px;
-    margin: 30px;
-    border-radius: 5px; 
+/* total credits section */
+.total__field {
+  background: aquamarine;
+  display: flex;
+  gap: 70px;
+  padding: 8px 20px;
+  margin: 10px 10px 0 10px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  line-height: 0;
+}
+
+.total__content h4 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.total__content p {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #65717c;
+}
+
+/* Virtual accounts section */
+.user__transactions {
+  margin: 5px 10px;
+  background: red;
+  border-radius: 5px;
+  height: 68.8vh;
+}
+
+.branch__search {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.button__search {
+  flex-direction: row;
+}
+.button__search input {
+  width: 420px;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #65717c;
+  padding: 0.75rem 1rem;
+  background: #fff;
 }
