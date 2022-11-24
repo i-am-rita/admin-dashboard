@@ -1,0 +1,8 @@
+.total__field{
+    background: red;
+    display: flex;
+    gap: 90px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px; 
+}

@@ -1,0 +1,120 @@
+.company__logo {
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+  margin: 50px 0;
+}
+
+.login__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.login__fields {
+  border: 5px solid #fff;
+  border-radius: 8px;
+  padding: 20px 40px;
+  background:#fff;
+
+  /* box-shadow: ; */
+}
+
+/* Log in to your account */
+.login__fields h3 {
+  color: #000;
+  font-family: "HelveticaNeue MediumExt";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+/* Get Started */
+.get__started {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.get__started p {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.get__started a {
+  text-decoration: none;
+  color: #5444f2;
+  margin-left: 5px;
+}
+
+.email__address {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input field */
+.input__field {
+  width: 100%;
+  margin-top: 20px;
+  line-height: 10px;
+}
+.input__field input {
+  display: flex;
+  width: 300px;
+  padding: 10px 10px;
+  margin: 15px 0;
+  border: 0.5px solid #e1e1e1;
+  border-radius: 6px;
+}
+
+.input__field label {
+  color: #65717c;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 12px;
+  margin-top: 20px;
+}
+
+.password a {
+  text-decoration: none;
+  color: #5444f2;
+}
+
+.login__fields {
+    position: relative;
+}
+
+.login__fields img{
+    position: relative;
+    top: -43px;
+    left: 90%;
+}
+.login__fields button {
+  width: 100%;
+  padding: 13px 0;
+  margin: 18px 0;
+  border-radius: 6px;
+  background: #5444f2;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "HelveticaNeue MediumExt";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
