@@ -7,6 +7,7 @@ import downarrow from "../assets/downarrow.svg";
 import notification from "../assets/notification.svg";
 import Sidebar from "../components/Sidebar";
 import Center from "../components/Center";
+import Rightbar from "../components/Rightbar";
 const Dashboard = () => {
   return (
     <div className="main__content">
@@ -28,6 +29,7 @@ const Dashboard = () => {
       <div className="contents">
         <Sidebar />
         <Center />
+        <Rightbar/>
       </div>
     </div>
   );

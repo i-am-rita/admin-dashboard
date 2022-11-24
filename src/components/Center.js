@@ -52,7 +52,7 @@ const bankDetails = [
 
 const Center = () => {
   return (
-    <div style={{width: "55%"}}>
+    <div style={{ width: "55%" }}>
       <h2 style={{ marginLeft: "20px" }}>Virtual Account Dashboard</h2>
 
       <div className="total__field">

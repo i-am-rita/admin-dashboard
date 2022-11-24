@@ -1,0 +1,142 @@
+.right__button {
+  display: flex;
+  gap: 20px;
+  margin-left: 72px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.right__button button {
+  padding: 12px 15px;
+  background: #fff;
+  color: #65717c;
+  border: none;
+  border-radius: 6px;
+  margin: 5px 0;
+}
+
+.right__button button:nth-child(2) {
+  background: #5444f2;
+  color: #fff;
+}
+
+/* activity feed */
+.activity {
+  background:#fff;
+  /* margin-top: -10px; */
+  border-radius: 5px;
+  height: 81.9vh;
+}
+
+.activity__feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.active-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.activity__feed span {
+  color: #65717c;
+  font-size: 12px;
+}
+.active-date li {
+  color: #65717c;
+}
+
+.empty__div {
+  padding: 20px 0;
+  background: #ffede3;
+}
+
+/* bank's logo */
+.bank__logo {
+  position: relative;
+  top: -20px;
+  padding: 0 0 0 10px;
+  width: 100px;
+  margin-bottom: -25px;
+}
+
+.account__view {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.account__view button {
+  padding: 9px 15px;
+  background: #fff;
+  color: #000;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+}
+
+.account__view div p {
+  color: #65717c;
+  font-weight: 400;
+  line-height: 0;
+}
+
+/* inflow */
+
+.total__inflow {
+  display: flex;
+  justify-content: space-around;
+  line-height: 0;
+}
+
+.inflow__content p {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 140%;
+
+  letter-spacing: 0.005em;
+
+  color: #65717c;
+}
+
+.inflow__content h3 {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.detail-transact {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 10px;
+  padding-top: -200px;
+  gap: 30px;
+}
+
+.detail-transact p {
+  font-size: 13px;
+}
+
+.detail-transact p:nth-child(2) {
+  margin-right: 40px;
+}
+
+.transacting {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  line-height: 0;
+}

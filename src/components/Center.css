@@ -7,7 +7,7 @@
 
 /* total credits section */
 .total__field {
-  background: aquamarine;
+  background:#fff;
   display: flex;
   gap: 70px;
   padding: 8px 20px;
@@ -41,7 +41,7 @@
 /* Virtual accounts section */
 .user__transactions {
   margin: 5px 10px;
-  background: antiquewhite;
+  background:#fff;
   border-radius: 5px;
   height: 68.8vh;
 }

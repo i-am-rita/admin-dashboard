@@ -10,6 +10,7 @@ import welcome from "../assets/welcome.svg";
 import mode from "../assets/mode.svg";
 import settings from "../assets/settings.svg";
 import audit from "../assets/audit.svg";
+import rightarrow from "../assets/arrow-right.svg";
 
 export const SidebarData = [
   {
@@ -50,20 +51,56 @@ export const SidebarData = [
     icon: virtualAccount,
     heading: "virtualAccount",
   },
-
 ];
 
 export const SidebarDataII = [
-    {
-        icon: mode,
-        heading: "Live mode",
-      },
-      {
-        icon: settings,
-        heading: "Settings",
-      },
-      {
-        icon: audit,
-        heading: "Audit logs",
-      },
-]
+  {
+    icon: mode,
+    heading: "Live mode",
+  },
+  {
+    icon: settings,
+    heading: "Settings",
+  },
+  {
+    icon: audit,
+    heading: "Audit logs",
+  },
+];
+
+export const rightbarData = [
+  {
+    name: "Olaoluwa S.",
+    amount: "#6,720.00",
+    day: "Today, 8mins ago",
+    icon: rightarrow,
+  },
+  {
+    name: "Olaoluwa S.",
+    amount: "#6,720.00",
+    day: "13th Aug - 3:15pm",
+    icon: rightarrow,
+  },
+  {
+    name: "Olaoluwa S.",
+    amount: "#6,720.00",
+    day: "13th Aug - 3:15pm",
+    icon: rightarrow,
+  },
+  {
+    name: "Olaoluwa S.",
+    amount: "#6,720.00",
+    day: "13th Aug - 3:15pm",
+    icon: rightarrow,
+  },
+  {
+    name: "Olaoluwa S.",
+    amount: "#6,720.00",
+    day: "13th Aug - 3:15pm",
+    icon: rightarrow,
+  },
+
+  //   {
+  //     detail: "Ol",
+  //   },
+];
