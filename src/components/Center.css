@@ -53,6 +53,12 @@
   align-items: center;
   gap: 10px;
 }
+
+.button__search img{
+  position: relative;
+  right: 30px;
+  top: 3px;
+}
 /* .button__search {
   flex-direction: row;
 
