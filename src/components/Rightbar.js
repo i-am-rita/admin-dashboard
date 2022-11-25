@@ -3,7 +3,6 @@ import React from "react";
 import "./Rightbar.css";
 import "./Rightbar.css"
 import dodoo from "../assets/dodoo.svg";
-import Gtco from "../assets/Gtco.svg";
 import arrow from "../assets/arrow-right.svg"
 import { rightbarData } from "../Data/SidebarData";
 
