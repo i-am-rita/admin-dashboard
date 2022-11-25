@@ -15,8 +15,16 @@ const Sidebar = () => {
             </div>
           );
         })}
-        {/* <hr style={{ border: "1px solid red", width: "100%", margin: "0!important" }} /> */}
+
         <div className="lower__sidebar">
+          <hr
+            style={{
+              border: "0.5px solid #e1e1e1",
+              width: "100%",
+              padding: "0",
+            }}
+          />
+
           {SidebarDataII.map((item) => {
             return (
               <div className="lower__content">

@@ -25,9 +25,11 @@ export const SidebarData = [
     icon: overview,
     heading: "Overview",
   },
+  // {
+  //   headtext: 'Business'
+  // },
   {
     icon: shoppingBag,
-    headtext: "Business",
     heading: "products",
   },
   {
@@ -38,9 +40,11 @@ export const SidebarData = [
     icon: orders,
     heading: "orders",
   },
+  // {
+  //   headtext: 'Business'
+  // },
   {
     icon: wallet,
-    headtext: "Payments",
     heading: "wallets",
   },
   {
@@ -50,6 +54,7 @@ export const SidebarData = [
   {
     icon: virtualAccount,
     heading: "virtualAccount",
+    
   },
 ];
 
