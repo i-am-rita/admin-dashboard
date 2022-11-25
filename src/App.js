@@ -3,22 +3,8 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className="App">
-    <Login/>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+    <div className="App" style={{ background: "#F5F6FA", height: "100vh" }}>
+      <Login />
     </div>
   );
 }
