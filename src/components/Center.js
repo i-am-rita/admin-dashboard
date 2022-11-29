@@ -3,7 +3,7 @@ import "./Center.css";
 import hamburg from "../assets/hamburg.svg";
 import hamburg2 from "../assets/hamburg2.svg";
 import settings from "../assets/settings.svg";
-import search from "../assets/search.svg"
+import search from "../assets/search.svg";
 
 const Center = ({ bankDetails, setBanking }) => {
   // console.log(banking);
@@ -68,7 +68,7 @@ const Center = ({ bankDetails, setBanking }) => {
           </button>
           <div className="button__search">
             <input type="email" placeholder="Search for virtual account" />
-            <img src={search} alt="search icon"/>
+            <img src={search} alt="search icon" />
           </div>
         </div>
         <hr style={{ border: "0.5px solid #e1e1e1" }} />
